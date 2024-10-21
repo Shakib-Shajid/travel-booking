@@ -72,18 +72,18 @@ const Plan = () => {
             <div className="bg-gradient-to-r from-green-200 to-blue-200 text-black py-12 px-4 ">
 
                 <div className="text-center my-5 space-y-3">
-                    <h2 className="text-5xl font-bold">Elige tu plan</h2>
-                    <p>eDreams Prime te ofrece 2 opciones de suscripción para satisfacer tus necesidades de viaje</p>
+                    <h2 className="text-5xl font-bold">Elige tu plan </h2>
+                    <p>Smart Tour te ofrece 2 opciones de suscripción para satisfacer tus necesidades de viaje</p>
                 </div>
 
                 <div className="max-w-5xl mx-auto">
-                    <div className="flex gap-5 justify-end w-[88%] md:w-[66%] lg:w-[58%] mx-auto font-bold text-center">
-                        <p>Prime <br /> <br /> 69,99 € <br /> año</p>
-                        <p>Prime <br /> Plus <br /> 89,99 € <br /> año</p>
+                    <div className="flex gap-2 justify-end w-[98%] md:w-[70%] lg:w-[70%] text-sm mx-auto font-bold text-center">
+                        <p>Standard <br /> 49,90€ /año</p>
+                        <p>Premium <br /> Pass <br />99,90€ /año</p>
                     </div>
 
                     {/* Section 1 */}
-                    <div className="w-full md:w-[70%] lg:w-[60%] mx-auto border border-white my-5 pt-7 pb-3 p-1 rounded-2xl">
+                    <div className="w-full md:w-[70%] lg:w-[70%] mx-auto border border-white my-5 pt-7 pb-3 p-1 rounded-2xl">
                         <h3 className="pl-4 font-bold text-xl">Ahorros</h3> {/* Moved outside table */}
                         <table className="table">
                             <tbody>
@@ -129,7 +129,7 @@ const Plan = () => {
                     </div>
 
                     {/* Section 2 */}
-                    <div className="w-full md:w-[70%] lg:w-[60%] mx-auto border border-white my-5 pt-7 pb-3 p-1 rounded-2xl">
+                    <div className="w-full md:w-[70%] lg:w-[70%] mx-auto border border-white my-5 pt-7 pb-3 p-1 rounded-2xl">
                         <h3 className="pl-4 font-bold text-xl">Flexibilidad</h3> {/* Moved outside table */}
                         <table className="table">
                             <tbody>
@@ -155,7 +155,7 @@ const Plan = () => {
                     </div>
 
                     {/* Section 3 */}
-                    <div className="w-full md:w-[70%] lg:w-[60%] mx-auto border border-white my-5 pt-7 pb-3 p-1 rounded-2xl">
+                    <div className="w-full md:w-[70%] lg:w-[70%] mx-auto border border-white my-5 pt-7 pb-3 p-1 rounded-2xl">
                         <h3 className="pl-4 font-bold text-xl">Tranquilidad</h3> {/* Moved outside table */}
                         <table className="table">
                             <tbody>
