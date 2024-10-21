@@ -71,8 +71,17 @@ import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { IoIosArrowDropdownCircle } from "react-icons/io";
 
+// aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Banner = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
 
     const [isScrolled, setIsScrolled] = useState(false);
 
