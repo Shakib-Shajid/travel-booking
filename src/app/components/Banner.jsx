@@ -99,9 +99,9 @@ const Banner = () => {
     useEffect(() => {
         const video = document.querySelector('.fast-video');
         if (video) {
-          video.playbackRate = 1.5; // Set the video speed to 2x
+            video.playbackRate = 1.5; // Set the video speed to 2x
         }
-      }, []);
+    }, []);
     return (
         <div className="relative w-full h-[420px] md:h-screen ">
             {/* Navbar: Fixed and stays at the top */}
@@ -128,20 +128,30 @@ const Banner = () => {
             <div className="absolute inset-0 z-30 flex items-center justify-center">
                 <div className="hero-content text-neutral-content text-center">
                     <div className="w-[70%] md:w-[60%]">
-                        <h1 className="mb-5 text-3xl md:text-5xl font-bold">Conoce la nueva forma de viajar más por menos</h1>
+                        <h1 className="mb-5 text-3xl md:text-5xl font-bold">La mejor manera de ahorrar viajando</h1>
                         <p className="mb-5">
-                            La solución para ahorrar cientos de euros con tus reservas en Atrápalo.
+                            Descubre la llave a un mundo de viajes y ocio sin límites con Smart Tour.
                         </p>
                         {/* <button className="btn btn-primary">Get Started</button> */}
                     </div>
                 </div>
                 <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 grid">
-                    <Link href="#card">
+                    <Link href="#card" scroll={true} onClick={(e) => {
+                        e.preventDefault(); // Prevent the default scroll behavior
+                        const target = document.getElementById('card');
+                        if (target) {
+                            window.scrollTo({
+                                top: target.offsetTop - 200, // Adjust -50 to control the offset from the top
+                                behavior: 'smooth', // Smooth scroll
+                            });
+                        }
+                    }}>
                         <IoIosArrowDropdownCircle className="text-white text-4xl bounce hover:cursor-pointer" />
                     </Link>
                 </div>
+
             </div>
-  
+
 
         </div>
     );
