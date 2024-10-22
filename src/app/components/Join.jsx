@@ -42,10 +42,10 @@ const Join = () => {
                             className="mySwiper w-full">
                             <SwiperSlide><Image src="/logo_101.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
                             <SwiperSlide><Image src="/logo_102.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
-                            <SwiperSlide><Image src="/logo_104.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
                             <SwiperSlide><Image src="/logo_105.svg" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
                             <SwiperSlide><Image src="/logo_106.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
                             <SwiperSlide><Image src="/logo_17.jpg" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_104.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
                            
                         </Swiper>
                     </div>
