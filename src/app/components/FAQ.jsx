@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Annual from "./Annual";
 
 const FAQ = () => {
     return (
@@ -45,8 +46,7 @@ const FAQ = () => {
                 </div>
             </div>
 
-            <p className="text-center my-6 md:my-14 lg:my-20 p-4 md:p-0" data-aos="zoom-in-up">El programa Smart de Atrápalo es una suscripción con renovación anual automática <br />
-            Consulta los <span className="text-[#F2384B]">Términos y condiciones</span>.</p>
+          <Annual />
         </div>
     );
 };
