@@ -38,17 +38,31 @@ body {
 }
 
 .gradient-text1 {
-  background: linear-gradient(to right, black, blue);
+  background: linear-gradient(to right, blue, green);
   /* Use the hex values for cyan-500 and blue-500 */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradient-text2 {
-  background: linear-gradient(to right, black, green);
+  background: linear-gradient(to left, rgb(235, 17, 104), navy);
   /* Use the hex values for cyan-500 and blue-500 */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.gradient-text3 {
+  background: linear-gradient(to left, Black , Silver );
+  /* Use the hex values for cyan-500 and blue-500 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.gradient-text4 {
+  background: linear-gradient(to left, green , rgb(45, 45, 195)  );
+  /* Use the hex values for cyan-500 and blue-500 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
 }
 
 

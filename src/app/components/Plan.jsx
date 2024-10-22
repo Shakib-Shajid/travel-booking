@@ -69,14 +69,14 @@ const Plan = () => {
                 </div>
             </div>
 
-            <div className="bg-gradient-to-r from-green-200 to-blue-200 text-black py-12 px-4 ">
+            <div className="bg-gradient-to-r from-green-200 to-blue-200 text-black py-8 px-4 ">
 
-                <div className="text-center my-5 space-y-3" data-aos="fade-right">
-                    <h2 className="text-5xl font-bold font-roboto gradient-text">Elige tu plan </h2>
+                <div className="text-center my-5 space-y-3 w-[90%] mx-auto" data-aos="fade-right">
+                    <h2 className="text-4xl md:text-5xl font-bold font-roboto gradient-text3">Elige tu plan </h2>
                     <p>Smart Tour te ofrece 2 opciones de suscripción para satisfacer tus necesidades de viaje</p>
                 </div>
 
-                <div className="max-w-5xl mx-auto"  data-aos="zoom-in">
+                <div className="max-w-5xl mx-auto w-[90%] md:w-full"  data-aos="zoom-in">
                     <div className="flex gap-2 justify-end w-[98%] md:w-[70%] lg:w-[70%] text-sm mx-auto font-bold text-center">
                         <p>Standard <br /> 49,90€ /año</p>
                         <p>Premium <br /> Pass <br />99,90€ /año</p>

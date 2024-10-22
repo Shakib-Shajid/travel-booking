@@ -18,7 +18,7 @@ const Join = () => {
                     <p>¡Es fácil! Sigue estos sencillos pasos.</p>
                 </div>
 
-                <section className="w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row" data-aos="fade-right">
+                <section className="w-[90%] md:w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row" data-aos="fade-right">
                     <div className="w-[90%] md:w-[50%] lg:ml-10 space-y-3">
                         <div className="flex justify-center lg:justify-start my-5 md:my-2">
                             <p className="inline-block bg-black text-white py-1 px-4 rounded-full">Paso 1</p>
@@ -40,19 +40,19 @@ const Join = () => {
                             modules={[Autoplay, Pagination, Navigation]}
                             grabCursor={true}
                             className="mySwiper w-full">
-                            <SwiperSlide><Image src="/logo_101.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
-                            <SwiperSlide><Image src="/logo_102.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
-                            <SwiperSlide><Image src="/logo_105.svg" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
-                            <SwiperSlide><Image src="/logo_106.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
-                            <SwiperSlide><Image src="/logo_107.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
-                            <SwiperSlide><Image src="/logo_104.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_101.png" width="250" height="100" alt="" className='mx-auto h-24 lg:h-48 w-48 lg:w-72 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_102.png" width="250" height="100" alt="" className='mx-auto h-24 lg:h-48 w-48 lg:w-72 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_105.svg" width="250" height="100" alt="" className='mx-auto h-24 lg:h-48 w-48 lg:w-72 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_106.png" width="250" height="100" alt="" className='mx-auto h-24 lg:h-48 w-48 lg:w-72 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_107.png" width="250" height="100" alt="" className='mx-auto h-24 lg:h-48 w-48 lg:w-72 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_104.png" width="250" height="100" alt="" className='mx-auto h-24 lg:h-48 w-48 lg:w-72 rounded-2xl' /></SwiperSlide>
                            
                         </Swiper>
                     </div>
 
                 </section>
 
-                <section className="w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row-reverse mt-10" data-aos="fade-down">
+                <section className="w-[90%] md:w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row-reverse mt-10" data-aos="fade-down">
                     <div className="w-[90%] md:w-[50%] lg:ml-10 space-y-3">
                         <div className="flex justify-center lg:justify-start my-5 md:my-2">
                             <p className="inline-block bg-black text-white py-1 px-4 rounded-full">Paso 2</p>
@@ -63,7 +63,7 @@ const Join = () => {
                             eliminamos el 70% de la comisión.</p>
                     </div>
 
-                    <div className="bg-base-300 w-96 rounded-2xl">
+                    <div className="w-80 md:w-96 rounded-2xl">
                         {/* <h3 className="pt-5 px-6 text-xl font-bold text-start">Prueba eDreams Prime</h3>
                         <div className="flex flex-col items-center">
                             <div className="bg-white flex gap-5 items-center justify-between p-5 rounded-xl w-[90%] mt-4">
@@ -81,20 +81,20 @@ const Join = () => {
                                 <p className="text-green-500 text-xl">+67,00 $</p>
                             </div>
                         </div> */}
-                        <Image src="/support.gif" width="1000" height="300" alt="" className='h-60 rounded-2xl' />
+                        <Image src="/support.gif" width="1000" height="300" alt="" className='h-60 rounded-2xl ' />
                     </div>
                 </section>
 
-                <section className="w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row mt-10" data-aos="fade-up">
+                <section className="w-[90%] md:w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row mt-10" data-aos="fade-up">
                     <div className="w-[90%] md:w-[50%] lg:ml-10 space-y-3">
                         <div className="flex justify-center lg:justify-start my-5 md:my-2">
                             <p className="inline-block bg-black text-white py-1 px-4 rounded-full">Paso 3</p>
                         </div>
-                        <h4 className="text-4xl font-bold font-roboto gradient-text1">¡Ahorra y disfruta! </h4>
+                        <h4 className="text-4xl font-bold font-roboto gradient-text2">¡Ahorra y disfruta! </h4>
                         <p>Finaliza la reserva con nosotros y disfruta de los beneficios Smart Tour durante 12 meses.</p>
                     </div>
 
-                    <div className="card bg-black text-black w-96">
+                    <div className="card w-80 md:w-96">
                         <Image src="/icon_2.gif" width="1000" height="300" alt="" className='h-60 rounded-2xl' />
                         {/* <div className="card-body h-56 flex flex-col items-center justify-center text-center">
                             <input type="text" placeholder="París" className="input input-bordered mb-4 w-[76%]" />
