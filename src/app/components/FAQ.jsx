@@ -1,6 +1,3 @@
-import Link from "next/link";
-import Annual from "./Annual";
-
 const FAQ = () => {
     return (
         <div className="p-4 font-open_sans" data-aos="zoom-in">
@@ -45,8 +42,7 @@ const FAQ = () => {
                     </div>
                 </div>
             </div>
-
-          <Annual />
+            <p className="text-center my-6 md:my-14 lg:my-20 p-4 md:p-0">El programa Smart Tour es una suscripción con renovación anual automática. <br className="hidden md:grid"/> Consulta los <span className="text-[#F2384B]">Términos y condiciones</span>.</p>
         </div>
     );
 };
