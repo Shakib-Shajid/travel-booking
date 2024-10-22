@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        open_sans: ['var(--font-open_sans)', ...fontFamily.sans],
+        open: ['var(--font-open_sans)', 'sans-serif'],
+        roboto: ['var(--font-roboto)', 'sans-serif'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

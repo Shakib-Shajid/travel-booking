@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Quality = () => {
     return (
-        <div className="my-10">
+        <div className="my-10" data-aos="fade-down">
             <h2 className="text-4xl text-center font-bold text-black my-5">Unirse a Smart es muy sencillo</h2>
                 {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 w-full lg:w-2/3 mx-auto md:w-fit"> */}
                 <div className="flex flex-col md:flex-row flex-wrap gap-4 justify-center w-full md:w-11/12 lg:w-3/4 mx-auto">

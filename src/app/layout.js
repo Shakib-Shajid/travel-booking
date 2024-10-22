@@ -1,6 +1,6 @@
 // import { Inter } from "next/font/google";
 import "./globals.css";
-import { Open_Sans } from 'next/font/google';
+import { Open_Sans, Roboto } from 'next/font/google';
 
 
 // const inter = Inter({ subsets: ["latin"] });
@@ -9,6 +9,13 @@ const open_sans = Open_Sans({
   weight: ['400', '500', '700'],
   display: 'swap',
   variable: '--font-open_sans', // Add CSS variable
+});
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+  display: 'swap',
+  variable: '--font-roboto', // Add CSS variable
 });
 
 export const metadata = {
@@ -26,7 +33,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* <body className={inter.className} >{children}</body> */}
       {/* <body className={inter.className}>{children}</body> */}
-      <body className={`${open_sans.variable}`}>
+      <body className={`${open_sans.variable} ${roboto.variable}`}>
         {children}
       </body>
     </html>

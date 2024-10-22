@@ -13,8 +13,8 @@ const Join = () => {
             {/* Overlay */}
 
             <div className="relative z-20"> {/* Content with z-index to stay on top of overlay */}
-                <div className="text-center my-5 space-y-2 w-[90%] mx-auto md:w-full">
-                    <h3 className="text-3xl font-bold">Unirse a Smart Tour es muy sencillo</h3>
+                <div className="text-center my-5 space-y-2 w-[90%] mx-auto md:w-full" data-aos="fade-down">
+                    <h3 className="text-3xl font-bold font-roboto gradient-text gradient-text1">Unirse a Smart Tour es muy sencillo</h3>
                     <p>¡Es fácil! Sigue estos sencillos pasos.</p>
                 </div>
 
@@ -23,7 +23,7 @@ const Join = () => {
                         <div className="flex justify-center lg:justify-start my-5 md:my-2">
                             <p className="inline-block bg-black text-white py-1 px-4 rounded-full">Paso 1</p>
                         </div>
-                        <h4 className="text-4xl font-bold">Busca el viaje o actividad que quieras </h4>
+                        <h4 className="text-4xl font-bold font-roboto gradient-text2">Busca el viaje o actividad que quieras </h4>
                         <p>Busca una oferta de cualquier operador turístico de los miles con los que trabajamos: vuelo + hotel, paquetes
                             vacacionales, alojamiento, excursiones, actividades, transporte, museos, entradas, transporte, etc.
                         </p>
@@ -57,7 +57,7 @@ const Join = () => {
                         <div className="flex justify-center lg:justify-start my-5 md:my-2">
                             <p className="inline-block bg-black text-white py-1 px-4 rounded-full">Paso 2</p>
                         </div>
-                        <h4 className="text-4xl font-bold">Dínoslo y te reducimos el precio </h4>
+                        <h4 className="text-4xl font-bold font-roboto gradient-text2">Dínoslo y te reducimos el precio </h4>
                         <p>Una vez elegida la tarifa del operador nos la comunicas y te aplicamos la reducción de la tarifa en función de la suscripción
                             elegida, con Smart Tour Premium Pass te eliminamos totalmente la comisión, con la tarifa Smart Tour Standard te
                             eliminamos el 70% de la comisión.</p>
@@ -90,7 +90,7 @@ const Join = () => {
                         <div className="flex justify-center lg:justify-start my-5 md:my-2">
                             <p className="inline-block bg-black text-white py-1 px-4 rounded-full">Paso 3</p>
                         </div>
-                        <h4 className="text-4xl font-bold">¡Ahorra y disfruta! </h4>
+                        <h4 className="text-4xl font-bold font-roboto gradient-text1">¡Ahorra y disfruta! </h4>
                         <p>Finaliza la reserva con nosotros y disfruta de los beneficios Smart Tour durante 12 meses.</p>
                     </div>
 

@@ -13,7 +13,7 @@ const Toggle = () => {
 
   return (
 
-    <div className="text-center my-10">
+    <div className="text-center my-10" data-aos="fade-down">
       {/* Sliding toggle button */}
       <div className="flex justify-center">
         <div className="relative w-80 h-12 bg-gray-200 rounded-full flex items-center justify-between p-1 shadow-inner">

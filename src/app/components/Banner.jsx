@@ -128,7 +128,7 @@ const Banner = () => {
             <div className="absolute inset-0 z-30 flex items-center justify-center">
                 <div className="hero-content text-neutral-content text-center">
                     <div className="w-[70%] md:w-[60%]">
-                        <h1 className="mb-5 text-3xl md:text-5xl font-bold">La mejor manera de ahorrar viajando</h1>
+                        <h1 className="mb-5 text-3xl md:text-5xl font-bold font-roboto">La mejor manera de ahorrar viajando</h1>
                         <p className="mb-5">
                             Descubre la llave a un mundo de viajes y ocio sin límites con Smart Tour.
                         </p>

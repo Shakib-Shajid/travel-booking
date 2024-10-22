@@ -71,8 +71,8 @@ const Plan = () => {
 
             <div className="bg-gradient-to-r from-green-200 to-blue-200 text-black py-12 px-4 ">
 
-                <div className="text-center my-5 space-y-3" >
-                    <h2 className="text-5xl font-bold">Elige tu plan </h2>
+                <div className="text-center my-5 space-y-3" data-aos="fade-right">
+                    <h2 className="text-5xl font-bold font-roboto gradient-text">Elige tu plan </h2>
                     <p>Smart Tour te ofrece 2 opciones de suscripción para satisfacer tus necesidades de viaje</p>
                 </div>
 
@@ -84,7 +84,7 @@ const Plan = () => {
 
                     {/* Section 1 */}
                     <div className="w-full md:w-[70%] lg:w-[70%] mx-auto border border-white my-5 pt-7 pb-3 p-1 rounded-2xl">
-                        <h3 className="pl-4 font-bold text-xl">Ahorros</h3> {/* Moved outside table */}
+                        <h3 className="pl-4 font-bold text-xl font-roboto">Ahorros</h3> {/* Moved outside table */}
                         <table className="table">
                             <tbody>
                                 <tr>
@@ -130,7 +130,7 @@ const Plan = () => {
 
                     {/* Section 2 */}
                     <div className="w-full md:w-[70%] lg:w-[70%] mx-auto border border-white my-5 pt-7 pb-3 p-1 rounded-2xl">
-                        <h3 className="pl-4 font-bold text-xl">Flexibilidad</h3> {/* Moved outside table */}
+                        <h3 className="pl-4 font-bold text-xl font-roboto">Flexibilidad</h3> {/* Moved outside table */}
                         <table className="table">
                             <tbody>
                                 <tr>
@@ -156,7 +156,7 @@ const Plan = () => {
 
                     {/* Section 3 */}
                     <div className="w-full md:w-[70%] lg:w-[70%] mx-auto border border-white my-5 pt-7 pb-3 p-1 rounded-2xl">
-                        <h3 className="pl-4 font-bold text-xl">Tranquilidad</h3> {/* Moved outside table */}
+                        <h3 className="pl-4 font-bold text-xl font-roboto">Tranquilidad</h3> {/* Moved outside table */}
                         <table className="table">
                             <tbody>
                                 <tr>

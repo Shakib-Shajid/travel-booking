@@ -2,9 +2,9 @@ import Link from "next/link";
 
 const FAQ = () => {
     return (
-        <div className="p-4 font-open_sans">
+        <div className="p-4 font-open_sans" data-aos="zoom-in">
             <div className="max-w-7xl md:mx-auto w-full lg:w-2/3 bg-gradient-to-r from-green-300 to-blue-300 rounded-2xl p-4 ">
-                <h3 className="collapse p-4 text-lg font-bold">Preguntas frecuentes sobre Smart</h3>
+                <h3 className="collapse p-4 text-xl font-bold font-roboto">Preguntas frecuentes sobre Smart</h3>
                 <div className="collapse collapse-arrow  border-b-2  ">
                     <input type="checkbox" name="my-accordion-2" />
                     <div className="collapse-title text-sm font-medium ">¿Cuánto dura la suscripción Smart?</div>
@@ -45,7 +45,7 @@ const FAQ = () => {
                 </div>
             </div>
 
-            <p className="text-center my-6 md:my-14 lg:my-20 p-4 md:p-0">El programa Smart de Atrápalo es una suscripción con renovación anual automática <br />
+            <p className="text-center my-6 md:my-14 lg:my-20 p-4 md:p-0" data-aos="zoom-in-up">El programa Smart de Atrápalo es una suscripción con renovación anual automática <br />
             Consulta los <span className="text-[#F2384B]">Términos y condiciones</span>.</p>
         </div>
     );
