@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const Empieza = () => {
     return (
-        <div>
-            <div className="hidden md:block">
+        <div data-aos="fade-right"> 
+            <div className="hidden md:block" >
                 <div className="stats shadow md:w-[90%] custom-1440:w-3/5 xl:w-3/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">

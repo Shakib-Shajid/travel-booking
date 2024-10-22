@@ -9,11 +9,11 @@ import "swiper/css";
 
 const Join = () => {
     return (
-        <div className="relative py-1 lg:py-10 bg-gradient-to-r from-green-300 to-blue-300" data-aos="fade-up">
+        <div className="relative py-1 lg:py-10 bg-gradient-to-r from-green-300 to-blue-300">
             {/* Overlay */}
 
             <div className="relative z-20"> {/* Content with z-index to stay on top of overlay */}
-                <div className="text-center my-5 space-y-2">
+                <div className="text-center my-5 space-y-2 w-[90%] mx-auto md:w-full">
                     <h3 className="text-3xl font-bold">Unirse a Smart Tour es muy sencillo</h3>
                     <p>¡Es fácil! Sigue estos sencillos pasos.</p>
                 </div>
@@ -40,21 +40,19 @@ const Join = () => {
                             modules={[Autoplay, Pagination, Navigation]}
                             grabCursor={true}
                             className="mySwiper w-full">
-                            <SwiperSlide><Image src="/logo_10.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
-                            <SwiperSlide><Image src="/logo_11.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
-                            <SwiperSlide><Image src="/logo_14.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
-                            <SwiperSlide><Image src="/logo_15.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_101.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_102.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_104.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_105.svg" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_106.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
                             <SwiperSlide><Image src="/logo_17.jpg" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
-                            <SwiperSlide><Image src="/logo_19.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
-                            {/* <SwiperSlide><Image src="/logo_10.png" width="250" height="100" alt=""  /></SwiperSlide> */}
-                            {/* <SwiperSlide><Image src="/logo_10.png" width="250" height="100" alt=""  /></SwiperSlide> */}
-                            {/* <SwiperSlide><Image src="/logo_10.png" width="250" height="100" alt=""  /></SwiperSlide> */}
+                           
                         </Swiper>
                     </div>
 
                 </section>
 
-                <section className="w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row-reverse mt-10">
+                <section className="w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row-reverse mt-10" data-aos="fade-down">
                     <div className="w-[90%] md:w-[50%] lg:ml-10 space-y-3">
                         <div className="flex justify-center lg:justify-start my-5 md:my-2">
                             <p className="inline-block bg-black text-white py-1 px-4 rounded-full">Paso 2</p>
@@ -87,7 +85,7 @@ const Join = () => {
                     </div>
                 </section>
 
-                <section className="w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row mt-10" data-aos="fade-right">
+                <section className="w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row mt-10" data-aos="fade-up">
                     <div className="w-[90%] md:w-[50%] lg:ml-10 space-y-3">
                         <div className="flex justify-center lg:justify-start my-5 md:my-2">
                             <p className="inline-block bg-black text-white py-1 px-4 rounded-full">Paso 3</p>

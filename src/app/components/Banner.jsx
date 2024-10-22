@@ -103,7 +103,7 @@ const Banner = () => {
         }
     }, []);
     return (
-        <div className="relative w-full h-[420px] md:h-screen ">
+        <div className="relative w-full h-[420px] md:h-screen" data-aos="fade-down">
             {/* Navbar: Fixed and stays at the top */}
             <div className="fixed top-0 left-0 w-full z-50">
                 <div className={`navbar pl-10 md:pl-20 ${isScrolled ? 'bg-gradient-to-r from-green-300 to-blue-300' : 'bg-transparent'}`}>

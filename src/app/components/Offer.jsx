@@ -10,7 +10,7 @@ const Offer = () => {
 
             {/* ...................................................... */}
 
-            <div className="py-10  text-black">
+            <div className="py-10  text-black w-[90%] md:w-full mx-auto">
                 <h3 className="text-3xl my-5">¿Cuánto se puede ahorrar con los programas Smart Tour? </h3>
                 <p>El ahorro varía en función del servicio, del importe y los pasajeros de la reserva. Ejemplos de ahorro:</p>
             </div>
