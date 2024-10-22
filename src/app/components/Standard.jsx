@@ -4,7 +4,7 @@ const Empieza = () => {
     return (
         <div>
             <div className="hidden md:block">
-                <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
+                <div className="stats shadow md:w-[90%] custom-1440:w-3/5 xl:w-3/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
                             <Image src="/PAQUETE_VACACIONAL.jpg" alt="" width="130" height="100" className="rounded-xl" />
@@ -38,7 +38,7 @@ const Empieza = () => {
             {/* for small */}
 
             <div className="block md:hidden">
-                <div className="stats shadow my-3 w-96 ">
+                <div className="stats shadow my-3 w-[90%] ">
                     <div className="flex flex-col ">
 
                         <div className="stat px-3 py-2">
@@ -78,7 +78,7 @@ const Empieza = () => {
 
             {/* 2nd */}
             <div className="hidden md:block ">
-                <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
+                <div className="stats shadow md:w-[90%] custom-1440:w-3/5 xl:w-3/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
                             <Image src="/ALOJAMIENTO.jpg" alt="" width="130" height="100" className="rounded-xl" />
@@ -112,7 +112,7 @@ const Empieza = () => {
             {/* for small */}
 
             <div className="block md:hidden">
-                <div className="stats shadow my-3 w-96 ">
+                <div className="stats shadow my-3 w-[90%] ">
                     <div className="flex flex-col ">
 
                         <div className="stat px-3 py-2">
@@ -152,13 +152,13 @@ const Empieza = () => {
 
             {/* 3th */}
             <div className="hidden md:block ">
-                <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
+                <div className="stats shadow md:w-[90%] custom-1440:w-3/5 xl:w-3/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
                             <Image src="/CRUCEROS.jpg" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Cruceros</div>
-                                <div className="text-sm font-bold">Barcelona – Londres + Hotel Riu Plaza London Victoria ****</div>
+                                <div className="text-sm font-bold">Barcelona – Londres + Hotel Riu <br /> Plaza London Victoria ****</div>
                                 <div className="text-xs">2 adultos, 3 noches</div>
                             </div>
                         </div>
@@ -186,7 +186,7 @@ const Empieza = () => {
             {/* for small */}
 
             <div className="block md:hidden">
-                <div className="stats shadow my-3 w-96 ">
+                <div className="stats shadow my-3 w-[90%] ">
                     <div className="flex flex-col ">
 
                         <div className="stat px-3 py-2">
@@ -226,13 +226,13 @@ const Empieza = () => {
 
             {/* 4th */}
             <div className="hidden md:block">
-                <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
+                <div className="stats shadow md:w-[90%] custom-1440:w-3/5 xl:w-3/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
                             <Image src="/ESCAPADAS.jpg" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Escapadas</div>
-                                <div className="text-sm font-bold">Hotel El Marqués Palace by Intercort *** + vuelo</div>
+                                <div className="text-sm font-bold mr-9">Hotel El Marqués Palace by <br /> Intercort *** + vuelo</div>
                                 <div className="text-xs">3 adultos, 1 niño, 6 noches</div>
                             </div>
                         </div>
@@ -261,7 +261,7 @@ const Empieza = () => {
             {/* for small */}
 
             <div className="block md:hidden">
-                <div className="stats shadow my-3 w-96 ">
+                <div className="stats shadow my-3 w-[90%] ">
                     <div className="flex flex-col ">
 
                         <div className="stat px-3 py-2">
@@ -302,13 +302,13 @@ const Empieza = () => {
 
             {/* 5th */}
             <div className="hidden md:block ">
-                <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
+                <div className="stats shadow md:w-[90%] custom-1440:w-3/5 xl:w-3/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
                             <Image src="/VUELO_HOTEL.webp" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Vuelo + Hotel</div>
-                                <div className="text-sm font-bold">Barcelona – Londres + Hotel Riu Plaza London Victoria ****</div>
+                                <div className="text-sm font-bold">Barcelona – Londres + Hotel Riu <br /> Plaza London Victoria ****</div>
                                 <div className="text-xs">2 adultos, 7 noches</div>
                             </div>
                         </div>
@@ -336,7 +336,7 @@ const Empieza = () => {
             {/* for small */}
 
             <div className="block md:hidden">
-                <div className="stats shadow my-3 w-96 ">
+                <div className="stats shadow my-3 w-[90%] ">
                     <div className="flex flex-col ">
 
                         <div className="stat px-3 py-2">
@@ -376,13 +376,13 @@ const Empieza = () => {
             
             {/* 6th */}
             <div className="hidden md:block ">
-                <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
+                <div className="stats shadow md:w-[90%] custom-1440:w-3/5 xl:w-3/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
                             <Image src="/ENTRADAS.webp" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Entradas</div>
-                                <div className="text-sm font-bold">Visita guiada Museos Vaticanos y Capilla Sixtina</div>
+                                <div className="text-sm font-bold mr-1">Visita guiada Museos Vaticanos <br /> y Capilla Sixtina</div>
                                 <div className="text-xs">8 adultos</div>
                             </div>
                         </div>
@@ -410,7 +410,7 @@ const Empieza = () => {
             {/* for small */}
 
             <div className="block md:hidden">
-                <div className="stats shadow my-3 w-96 ">
+                <div className="stats shadow my-3 w-[90%] ">
                     <div className="flex flex-col ">
 
                         <div className="stat px-3 py-2">
@@ -450,13 +450,13 @@ const Empieza = () => {
             
             {/* 7th */}
             <div className="hidden md:block mb-12 lg:mb-14">
-                <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
+                <div className="stats shadow md:w-[90%] custom-1440:w-3/5 xl:w-3/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
                             <Image src="/EXPERIENCIAS.jpg" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Experiencias</div>
-                                <div className="text-sm font-bold">Paseo en globo por el Serengueti (Tanzania) </div>
+                                <div className="text-sm font-bold">Paseo en globo por el Serengueti <br /> (Tanzania) </div>
                                 <div className="text-xs">2 adultos</div>
                             </div>
                         </div>
@@ -484,7 +484,7 @@ const Empieza = () => {
             {/* for small */}
 
             <div className="block md:hidden mb-12">
-                <div className="stats shadow my-3 w-96 ">
+                <div className="stats shadow my-3 w-[90%] ">
                     <div className="flex flex-col ">
 
                         <div className="stat px-3 py-2">
