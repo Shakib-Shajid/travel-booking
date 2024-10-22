@@ -1,5 +1,11 @@
+"use client"
 import Image from 'next/image';
 import React from 'react';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+// Import Swiper styles
+import "swiper/css";
 
 const Join = () => {
     return (
@@ -23,23 +29,32 @@ const Join = () => {
                         </p>
                     </div>
 
-                    <div className="card bg-black text-black w-96">
-                        {/* <div className="card-body h-56 flex flex-col items-center justify-center text-center">
-                            <input type="text" placeholder="París" className="input input-bordered mb-4 w-[76%]" />
-                            <button className="btn btn-success w-[76%] rounded-full text-white">Buscar</button>
-                        </div> */}
-                        <video
-                            src="/icon_animation.mp4"
-                            loop
-                            muted
-                            autoPlay
-                            playsInline
-                            className='w-full h-full object-cover fast-video'
-                        />
+                    {/* <Image src="/logo_10.png" width="250" height="100" alt=""  /> */}
+
+                    <div className="card text-white w-96">
+                        <Swiper
+                            autoplay={{
+                                delay: 1200,
+                                disableOnInteraction: false,
+                            }}
+                            modules={[Autoplay, Pagination, Navigation]}
+                            grabCursor={true}
+                            className="mySwiper w-full">
+                            <SwiperSlide><Image src="/logo_10.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_11.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_14.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_15.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_17.jpg" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
+                            <SwiperSlide><Image src="/logo_19.png" width="250" height="100" alt="" className='w-80 mx-auto h-52 rounded-2xl' /></SwiperSlide>
+                            {/* <SwiperSlide><Image src="/logo_10.png" width="250" height="100" alt=""  /></SwiperSlide> */}
+                            {/* <SwiperSlide><Image src="/logo_10.png" width="250" height="100" alt=""  /></SwiperSlide> */}
+                            {/* <SwiperSlide><Image src="/logo_10.png" width="250" height="100" alt=""  /></SwiperSlide> */}
+                        </Swiper>
                     </div>
+
                 </section>
 
-                <section className="w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row-reverse mt-10" data-aos="fade-right">
+                <section className="w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row-reverse mt-10">
                     <div className="w-[90%] md:w-[50%] lg:ml-10 space-y-3">
                         <div className="flex justify-center lg:justify-start my-5 md:my-2">
                             <p className="inline-block bg-black text-white py-1 px-4 rounded-full">Paso 2</p>
@@ -68,7 +83,7 @@ const Join = () => {
                                 <p className="text-green-500 text-xl">+67,00 $</p>
                             </div>
                         </div> */}
-                        <Image src="/support.gif" width="1000" height="300" alt="" className='h-60 rounded-2xl'/>
+                        <Image src="/support.gif" width="1000" height="300" alt="" className='h-60 rounded-2xl' />
                     </div>
                 </section>
 
@@ -82,7 +97,7 @@ const Join = () => {
                     </div>
 
                     <div className="card bg-black text-black w-96">
-                        <Image src="/enjoy.jpg" width="1000" height="300" alt="" className='h-60 rounded-2xl'/>
+                        <Image src="/icon_2.gif" width="1000" height="300" alt="" className='h-60 rounded-2xl' />
                         {/* <div className="card-body h-56 flex flex-col items-center justify-center text-center">
                             <input type="text" placeholder="París" className="input input-bordered mb-4 w-[76%]" />
                             <button className="btn btn-success w-[76%] rounded-full text-white">Buscar</button>
