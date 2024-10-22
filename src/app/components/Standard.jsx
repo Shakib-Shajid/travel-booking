@@ -7,7 +7,7 @@ const Empieza = () => {
                 <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
-                            <Image src="/save_1.jpg" alt="" width="130" height="100" className="rounded-xl" />
+                            <Image src="/PAQUETE_VACACIONAL.jpg" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Paquetes vacacionales</div>
                                 <div className="text-sm font-bold">Viaje Nueva York y Riviera Maya </div>
@@ -43,7 +43,7 @@ const Empieza = () => {
 
                         <div className="stat px-3 py-2">
                             <div className="flex gap-2">
-                                <Image src="/save_1.jpg" alt="" width="120" height="120" className="rounded-xl" />
+                                <Image src="/PAQUETE_VACACIONAL.jpg" alt="" width="120" height="120" className="rounded-xl" />
                                 <div className="text-start  my-auto">
                                     <div className="text-xs">Paquetes vacacionales</div>
                                     <div className="text-sm font-bold">Viaje Nueva York y Riviera Maya</div>
@@ -81,7 +81,7 @@ const Empieza = () => {
                 <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
-                            <Image src="/save_2.jpg" alt="" width="130" height="100" className="rounded-xl" />
+                            <Image src="/ALOJAMIENTO.jpg" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Alojamiento</div>
                                 <div className="text-sm font-bold">Hotel Novotel Paris Tour Eiffel 4*</div>
@@ -117,7 +117,7 @@ const Empieza = () => {
 
                         <div className="stat px-3 py-2">
                             <div className="flex gap-2">
-                                <Image src="/save_2.jpg" alt="" width="120" height="120" className="rounded-xl" />
+                                <Image src="/ALOJAMIENTO.jpg" alt="" width="120" height="120" className="rounded-xl" />
                                 <div className="text-start  my-auto">
                                     <div className="text-xs">Alojamiento</div>
                                     <div className="text-sm font-bold">Hotel Novotel Paris Tour Eiffel 4*</div>
@@ -155,7 +155,7 @@ const Empieza = () => {
                 <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
-                            <Image src="/save_3.jpg" alt="" width="130" height="100" className="rounded-xl" />
+                            <Image src="/CRUCEROS.jpg" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Cruceros</div>
                                 <div className="text-sm font-bold">Barcelona – Londres + Hotel Riu Plaza London Victoria ****</div>
@@ -191,7 +191,7 @@ const Empieza = () => {
 
                         <div className="stat px-3 py-2">
                             <div className="flex gap-2">
-                                <Image src="/save_3.jpg" alt="" width="120" height="120" className="rounded-xl" />
+                                <Image src="/CRUCEROS.jpg" alt="" width="120" height="120" className="rounded-xl" />
                                 <div className="text-start  my-auto">
                                     <div className="text-xs">Cruceros</div>
                                     <div className="text-sm font-bold">Mediterráneo MSC World Europa</div>
@@ -229,7 +229,7 @@ const Empieza = () => {
                 <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
-                            <Image src="/save_4.jpg" alt="" width="130" height="100" className="rounded-xl" />
+                            <Image src="/ESCAPADAS.jpg" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Escapadas</div>
                                 <div className="text-sm font-bold">Hotel El Marqués Palace by Intercort *** + vuelo</div>
@@ -266,7 +266,7 @@ const Empieza = () => {
 
                         <div className="stat px-3 py-2">
                             <div className="flex gap-2">
-                                <Image src="/save_1.jpg" alt="" width="120" height="120" className="rounded-xl" />
+                                <Image src="/ESCAPADAS.jpg" alt="" width="120" height="120" className="rounded-xl" />
                                 <div className="text-start  my-auto">
                                     <div className="text-xs">Escapadas</div>
                                     <div className="text-sm font-bold">Hotel El Marqués Palace by Intercort *** + vuelo</div>
@@ -305,7 +305,7 @@ const Empieza = () => {
                 <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
-                            <Image src="/save_3.jpg" alt="" width="130" height="100" className="rounded-xl" />
+                            <Image src="/VUELO_HOTEL.webp" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Vuelo + Hotel</div>
                                 <div className="text-sm font-bold">Barcelona – Londres + Hotel Riu Plaza London Victoria ****</div>
@@ -341,7 +341,7 @@ const Empieza = () => {
 
                         <div className="stat px-3 py-2">
                             <div className="flex gap-2">
-                                <Image src="/save_3.jpg" alt="" width="120" height="120" className="rounded-xl" />
+                                <Image src="/VUELO_HOTEL.webp" alt="" width="120" height="120" className="rounded-xl" />
                                 <div className="text-start  my-auto">
                                     <div className="text-xs">Vuelo + Hotel</div>
                                     <div className="text-sm font-bold">Barcelona – Londres + Hotel Riu Plaza London Victoria ****</div>
@@ -379,7 +379,7 @@ const Empieza = () => {
                 <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
-                            <Image src="/save_3.jpg" alt="" width="130" height="100" className="rounded-xl" />
+                            <Image src="/ENTRADAS.webp" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Entradas</div>
                                 <div className="text-sm font-bold">Visita guiada Museos Vaticanos y Capilla Sixtina</div>
@@ -415,7 +415,7 @@ const Empieza = () => {
 
                         <div className="stat px-3 py-2">
                             <div className="flex gap-2">
-                                <Image src="/save_3.jpg" alt="" width="120" height="120" className="rounded-xl" />
+                                <Image src="/ENTRADAS.webp" alt="" width="120" height="120" className="rounded-xl" />
                                 <div className="text-start  my-auto">
                                     <div className="text-xs">Entradas</div>
                                     <div className="text-sm font-bold">Visita guiada Museos Vaticanos y Capilla Sixtina</div>
@@ -453,7 +453,7 @@ const Empieza = () => {
                 <div className="stats shadow md:w-[90%] lg:w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
-                            <Image src="/save_3.jpg" alt="" width="130" height="100" className="rounded-xl" />
+                            <Image src="/EXPERIENCIAS.jpg" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Experiencias</div>
                                 <div className="text-sm font-bold">Paseo en globo por el Serengueti (Tanzania) </div>
@@ -489,7 +489,7 @@ const Empieza = () => {
 
                         <div className="stat px-3 py-2">
                             <div className="flex gap-2">
-                                <Image src="/save_3.jpg" alt="" width="120" height="120" className="rounded-xl" />
+                                <Image src="/EXPERIENCIAS.jpg" alt="" width="120" height="120" className="rounded-xl" />
                                 <div className="text-start  my-auto">
                                     <div className="text-xs">Experiencias</div>
                                     <div className="text-sm font-bold">Paseo en globo por el Serengueti (Tanzania) </div>
